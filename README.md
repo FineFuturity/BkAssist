@@ -6,7 +6,7 @@ In this branch, a new tkinter gui script (filter.py), has been added.  In this s
 What's cool about the search feature is that search queries can be written such that you can find not just the specific piece of data you're looking for, but also data which may be related to what you're looking for.  For example, if you launch filter.py and load in the "Example Data Set.xlsx" file, you could search for "IT corporate 0 miami" and the filtered results will be all people in IT who work in corporate who are located in Miami and have a 0 percent bonus percentage.  A very rudimentary implementation, sure, but since i'll eventually be using simple data sets pulled from our work's invoicing software anyway, this is more than good enough.
 
 the interface itself still has a few bugs I'm working out:
-- loading .csv files is not fully implemented.  my guess is due to how i try to check the .csv file's encoding, but should be fixed once i sort this issue out. 
+- loading .csv files is not fully implemented.  my guess is due to how i try to check the .csv file's encoding, but should be easy enough to fix.
 - column sorting doesn't quite work right on certain columns with decimal values, likely due to how the excel file data is formatted, with the fact the excel file data is loaded into the treeview columns as strings, or a combination of these.
 - additionally, sorting the treeview after performing a search can result in the treeview wiping the filtered results and the program loading the original data set being loaded back into the treeview.  i have a good idea of how to fix this, it's just a matter of figuring out how to work the solution in with the existing code.  shouldn't be too bad. 
   
