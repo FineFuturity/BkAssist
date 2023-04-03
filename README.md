@@ -7,7 +7,7 @@ What's cool about the search feature is that search queries can be written such 
 
 the interface itself still has a few bugs I'm working out:
 - column sorting doesn't quite work right on certain columns with decimal values, likely due to how the excel file data is formatted, with the fact the excel file data is loaded into the treeview columns as strings, or a combination of these.
-  |-> additionally, sorting the treeview after performing a search can result in the treeview wiping the filtered results and the original data set being loaded back in.  i have a good idea of how to fix this, it's just a matter of figuring out how to work the solution in with the existing code.  shouldn't be too bad. 
+- additionally, sorting the treeview after performing a search can result in the treeview wiping the filtered results and the original data set being loaded back in.  i have a good idea of how to fix this, it's just a matter of figuring out how to work the solution in with the existing code.  shouldn't be too bad. 
   
 to create an entire feature like this AND have a working version of it is a huge personal milestone for me.  it's the first time i've ever made this kind of progress in any programming project i've ever attempted.  yes, it's crude and rudimentary, but i'm learning so much.  :)
 
